@@ -24,3 +24,9 @@ export const enum Stage {
   prod = 'prod',
   develop = 'develop',
 }
+
+export const enum Account {
+  featureDev = '590184085727',
+  staging = '590184085727',
+  prod = '590184085727',
+}

@@ -1,6 +1,7 @@
 import * as dotenv from 'dotenv';
 
 import {
+  Account,
   EnvironmentConfig,
   Region,
   Stage,
@@ -28,7 +29,7 @@ export const environments: Record<Stage, EnvironmentConfig> = {
   },
   [Stage.featureDev]: {
     env: {
-      account: '11111111111',
+      account: Account.featureDev,
       region: Region.dublin,
     },
     stateful: {
@@ -41,7 +42,7 @@ export const environments: Record<Stage, EnvironmentConfig> = {
   },
   [Stage.staging]: {
     env: {
-      account: '22222222222',
+      account: Account.staging,
       region: Region.dublin,
     },
     stateful: {
@@ -54,7 +55,7 @@ export const environments: Record<Stage, EnvironmentConfig> = {
   },
   [Stage.prod]: {
     env: {
-      account: '33333333333',
+      account: Account.prod,
       region: Region.dublin,
     },
     stateful: {

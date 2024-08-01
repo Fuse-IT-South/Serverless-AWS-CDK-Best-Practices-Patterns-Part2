@@ -3,7 +3,7 @@
 exports[`pipeline-config should return the correct config for feature-dev 1`] = `
 {
   "env": {
-    "account": "11111111111",
+    "account": "590184085727",
     "region": "eu-west-1",
   },
   "stageName": "featureDev",
@@ -19,7 +19,7 @@ exports[`pipeline-config should return the correct config for feature-dev 1`] = 
 exports[`pipeline-config should return the correct config for prod 1`] = `
 {
   "env": {
-    "account": "33333333333",
+    "account": "590184085727",
     "region": "eu-west-1",
   },
   "stageName": "prod",
@@ -35,7 +35,7 @@ exports[`pipeline-config should return the correct config for prod 1`] = `
 exports[`pipeline-config should return the correct config for staging 1`] = `
 {
   "env": {
-    "account": "22222222222",
+    "account": "590184085727",
     "region": "eu-west-1",
   },
   "stageName": "staging",
