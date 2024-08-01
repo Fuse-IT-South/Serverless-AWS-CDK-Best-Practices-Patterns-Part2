@@ -24,7 +24,7 @@ export class PipelineStack extends cdk.Stack {
         pipelineName: 'serverless-pro-pipeline',
         synth: new pipelines.ShellStep('Synth', {
           input: pipelines.CodePipelineSource.connection(
-            'Fuse-IT-South/Serverless-AWS-CDK-Best-Practices-Patterns',
+            'Fuse-IT-South/Serverless-AWS-CDK-Best-Practices-Patterns-Part2',
             'main',
             {
               connectionArn:
