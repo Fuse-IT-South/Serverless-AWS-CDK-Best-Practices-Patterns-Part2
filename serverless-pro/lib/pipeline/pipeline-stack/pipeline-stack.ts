@@ -31,6 +31,7 @@ export class PipelineStack extends cdk.Stack {
                 'arn:aws:codeconnections:eu-west-1:590184085727:connection/65cad748-79f5-491f-bea4-cf4cce86745c',
             }
           ),
+          installCommands: ['npm install -g aws-cdk', 'npm i -g npm@latest'],
           primaryOutputDirectory: './serverless-pro/cdk.out',
           // source stage
           commands: [
