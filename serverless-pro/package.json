@@ -31,7 +31,7 @@
     "artillery": "^2.0.0-30",
     "artillery-plugin-ensure": "^1.1.1",
     "artillery-plugin-expect": "^2.2.1",
-    "aws-cdk": "2.55.1",
+    "aws-cdk": "2.150.0",
     "esbuild": "^0.17.5",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^8.6.0",
@@ -44,8 +44,8 @@
     "typescript": "~4.9.4"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.55.1",
-    "aws-sdk": "^2.1304.0",
+    "aws-cdk-lib": "2.150.0",
+    "aws-sdk": "2.150.0",
     "cdk-nag": "^2.28.171",
     "constructs": "^10.0.0",
     "dotenv": "^16.0.3",

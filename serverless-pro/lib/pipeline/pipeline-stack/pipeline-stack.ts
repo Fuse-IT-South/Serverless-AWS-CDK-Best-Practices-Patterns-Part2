@@ -23,7 +23,14 @@ export class PipelineStack extends cdk.Stack {
         selfMutation: true,
         pipelineName: 'serverless-pro-pipeline',
         synth: new pipelines.ShellStep('Synth', {
-          input: pipelines.CodePipelineSource.connection('Fuse-IT-South/Serverless-AWS-CDK-Best-Practices-Patterns', 'main', { connectionArn: 'arn:aws:codeconnections:eu-west-1:590184085727:connection/65cad748-79f5-491f-bea4-cf4cce86745c' }),
+          input: pipelines.CodePipelineSource.connection(
+            'Fuse-IT-South/Serverless-AWS-CDK-Best-Practices-Patterns',
+            'main',
+            {
+              connectionArn:
+                'arn:aws:codeconnections:eu-west-1:590184085727:connection/65cad748-79f5-491f-bea4-cf4cce86745c',
+            }
+          ),
           primaryOutputDirectory: './serverless-pro/cdk.out',
           // source stage
           commands: [
